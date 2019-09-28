@@ -50,28 +50,4 @@ Submission File
 You must submit a csv file (CAX_MortgageModeling_SubmissionFormat.csv) with the <CAX_Unique_id> and a <Result_Predicted>. Submission file should be same as provided. Files not adhering to the format will give error during submission.
 Evaluation Criteria
 
-Task 1 “Public/Private Leaderboard Modelling” Evaluation:
-
-    CAX will act as the evaluator, reconciling the model's predictions against historical funding results (i.e. test data).
-    These predictions will be evaluation using the macro F1 score metric commonly used to assess AI capability.
-
-Task 2 “Conditional Winners Model/Report Submission” Evaluation Criteria:
-
-    Documentation of code
-        Code submitted should clearly differentiate between train and predict phase. The code should output predictions for test set in the format provided only.
-        Applicability of model in practical settings
-        Further evaluation metrics like Precision for each class, Recall, Overall Accuracy etc. will be calcuated for Top 5 models and will be used for winner selection.
-    Modelling & Insights report
-        All reports will be evaluated by the client and their decision would be final in that regard.
-
-Solver Deliverables
-
-Following are the deliverables expected from top 3 solvers at the end of contest:
-
-    Code (Documented)
-    Report (PDF / Word) explaining the following:
-        Methodology – process followed to solve the problem
-        Findings – summary of most/least impactful data features on outcome
-            Identify significant elements in customer mortgage application data that will ultimately lead to their mortgage being funded/declined.
-        Additional Info – explanation of derived features, recommendations for model application, etc.
 
